@@ -1,199 +1,314 @@
-[START commit][author=Hugoagogo][time=1309086064][message=Updated how to play][hash=efb90b7505a6385731cf47b6d590e1c8be306a86]
- 1 files changed, 10 insertions(+), 5 deletions(-)
+[START commit][author=Madeline Whitmore][time=1631064261][message=Drop files from .gitignore][hash=043dd1b84c2c998b2eddc0514129b7ee7de3bb11]
+ 6206 files changed, 6672 deletions(-)
 
-[START commit][author=Hugoagogo][time=1309075467][message=Added dragging functionality that utalises existing code][hash=0639a229919ff1440893661f120e356aee0bf063]
- 2 files changed, 18 insertions(+), 3 deletions(-)
+[START commit][author=Madeline Whitmore][time=1630984610][message=UI Tweaks][hash=77be7d0348a4abd3d05d34effd3057c0ac439dab]
+ 8 files changed, 68 insertions(+), 71 deletions(-)
 
-[START commit][author=Hugoagogo][time=1309063832][message=Fixed some bugs and tweaked some tiles][hash=cacfa7470c0037001d93f0666b92a4fc4814d993]
- 6 files changed, 10 insertions(+), 3 deletions(-)
+[START commit][author=Madeline Whitmore][time=1630980828][message=🧽️ Cleaning Up and Usability Tweaks Asynchrous Loading In Max's New Loading System Save Creation Reworked the Main Menu To Accomodate Save Loading And Creation Made It Harder to Stand on Spikes][hash=7b56e10c7a5c23a050514eee19609944a35057a2]
+ 31 files changed, 1865 insertions(+), 1079 deletions(-)
 
-[START commit][author=Hugoagogo][time=1309061755][message=Added basic swapping into fullscreen][hash=6eb193ea4ce7607061499ad23abf0149518950e8]
- 2 files changed, 4 insertions(+), 2 deletions(-)
+[START commit][author=Madeline Whitmore][time=1630887230][message=Merge Commit][hash=63284bd0cacdf8bfdbe4bd38ea106016e47e9c65]
+ 70 files changed, 139 insertions(+), 171 deletions(-)
 
-[START commit][author=Hugoagogo][time=1308999339][message=Finished of fixing highscores so there is no dependancy on easygui][hash=a133054b1144c7c5e2437d6976a6c4442beeba7d]
- 5 files changed, 50 insertions(+), 2402 deletions(-)
+[START commit][author=Madeline Whitmore][time=1630884525][message=Merge branch 'Max's-work'][hash=941e64890668e4bb44178aae782f8be86d5c34fb]
+[START commit][author=krimson2208][time=1630877315][message=finished loading saves][hash=de664815b2f0b46303bd112dff727efc67906098]
+ 18 files changed, 168 insertions(+), 89 deletions(-)
 
-[START commit][author=Hugoagogo][time=1308996413][message=Added an editable menuitem][hash=84e0a05b7a02e67cb1281516c8b12ebbc53ffeb4]
- 2 files changed, 84 insertions(+), 1 deletions(-)
+[START commit][author=Madeline Whitmore][time=1630562951][message=🪲️ Fixed Multiple Bugs Related to Reloading the Level Multiple Times][hash=fdbb78c7dcf3ec88fe0281d25cc3e4f6df3a084e]
+ 19 files changed, 411 insertions(+), 366 deletions(-)
 
-[START commit][author=Hugoagogo][time=1308802391][message=Added some doc strings][hash=46141b5c59632c365567b7dd7e4b56f070a2f1d2]
- 1 files changed, 28 insertions(+), 1 deletions(-)
+[START commit][author=krimson2208][time=1630557680][message=fixed and added loading system][hash=e696795aa72ad621035f38e2a3f3868fa5b92b26]
+ 114 files changed, 2045 insertions(+), 686 deletions(-)
 
-[START commit][author=Hugoagogo][time=1308728310][message=Fixed highscore menu and removed some debug info, included easygui instead of needing an install][hash=ce8a8fe647aaa1e2407f3cdef47fe7cc14306861]
- 2 files changed, 2390 insertions(+), 8 deletions(-)
+[START commit][author=Madeline Whitmore][time=1630327560][message=💾️ Exit Reassurance and Asynchrous Scene Loading][hash=752a8105bb5dc3bced4c131a41b3d1283dd4f2d0]
+ 76 files changed, 2738 insertions(+), 1882 deletions(-)
 
-[START commit][author=Hugoagogo][time=1308727953][message=Added check for valid highscore name][hash=c3b8378bb04ef25b4b0fdb35a7e182014854d013]
- 1 files changed, 2 insertions(+), 1 deletions(-)
+[START commit][author=Madeline Whitmore][time=1629666810][message=Fixed Grappling Gun Movement Issues][hash=686a8fa517fffdb4acc8a53fab096508619efac3]
+ 21 files changed, 1169 insertions(+), 763 deletions(-)
 
-[START commit][author=Hugoagogo][time=1308711365][message=Fixed up the recurring sound bug mostly][hash=4873d34740b4fe08551237924aa9f1f917c227b0]
- 4 files changed, 23 insertions(+), 5 deletions(-)
+[START commit][author=Madeline Whitmore][time=1629023366][message=Swinging Area Complete][hash=aa91a0c131ac1ef8b2f24ebbffa2a951bf22ac44]
+ 31 files changed, 3440 insertions(+), 608 deletions(-)
 
-[START commit][author=Hugoagogo][time=1308661006][message=Fixed up highscores a bit][hash=e6e5baaa187403e76056583af7245a94d8877755]
- 5 files changed, 20 insertions(+), 36 deletions(-)
+[START commit][author=Madeline Whitmore][time=1628943431][message=🔥️ Partially Complete Rising Lava Area Segment][hash=fce2e0e9309e361070e14f4417d95ba7ac122d3e]
+ 42 files changed, 15239 insertions(+), 1489 deletions(-)
 
-[START commit][author=Hugoagogo][time=1308656550][message=Fixed a bug in the game endstates, changed the tile distribution to make levels easier][hash=696711c011aa40e9edb0c48d93d287f59a6fca14]
- 1 files changed, 2 insertions(+), 2 deletions(-)
+[START commit][author=Madeline Whitmore][time=1628858802][message=🚀️ First Part Of Moving Platform Area is Complete.][hash=a9de190c50b3183e151d97383d459d3ab47db540]
+ 25 files changed, 2394 insertions(+), 1090 deletions(-)
 
-[START commit][author=Hugoagogo][time=1308656155][message=Fixed end condtions for time and zen mode.][hash=c2c8f5efca92329b832a4438f01dddc458075583]
- 1 files changed, 11 insertions(+), 5 deletions(-)
+[START commit][author=Madeline Whitmore][time=1628498111][message=Update Unity to 2020.3.15f2 Max please update your unity version][hash=313d499e882f052e0b807d119b1288fada2ba59a]
+ 51 files changed, 47 insertions(+), 47 deletions(-)
 
-[START commit][author=Hugoagogo][time=1308648734][message=Fixed up the new tiles a bit to look nicer and fixed a mistake in naming][hash=458901facbbf9437eba498c064b3096a327fdd79]
- 22 files changed, 0 insertions(+), 0 deletions(-)
+[START commit][author=Madeline Whitmore][time=1628493108][message=✨️ Fixed issues resulting from merge][hash=96053b88fc1356009de36a4f9396f07c83986cb0]
+ 91 files changed, 45284 insertions(+), 6361 deletions(-)
 
-[START commit][author=Hugoagogo][time=1308181482][message=Tile that was left out? Also a shoddy icon included][hash=75a8dda7ddfec38bfe6db51f05dcf2dca136faf6]
- 2 files changed, 0 insertions(+), 0 deletions(-)
+[START commit][author=Madeline Whitmore][time=1628458618][message=Merge remote-tracking branch 'origin/Max's-work'][hash=c4d6ba95f7004c0f938b13d0231626c042498397]
+[START commit][author=Madeline Whitmore][time=1628457609][message=Merge remote-tracking branch 'origin/main' into Mario's-Work][hash=842d540cb7f53558b78cd02094d14d992ccaed5b]
+[START commit][author=krimson2208][time=1628456667][message=Level Reset][hash=05e058f159adff8816aa9054b867c295d5859abb]
+ 105 files changed, 9015 insertions(+), 9821 deletions(-)
 
-[START commit][author=Hugoagogo][time=1308181355][message=IT WORKS WITH NO GAPS FINALLY][hash=97845b49a2a8d74ee7eaee9ef7178ca66c162563]
- 1 files changed, 11 insertions(+), 7 deletions(-)
+[START commit][author=Madeline Whitmore][time=1628080094][message=🚀️ Saving and Checkpoints Integrate later with max's death reset script.][hash=393c29a2f1d5e8afd874960fe34d42285d322e78]
+ 76 files changed, 4327 insertions(+), 427 deletions(-)
 
-[START commit][author=Hugoagogo][time=1306369637][message=Added some new tiles][hash=34555749bbce2b0688684431fc653fc2a6091451]
- 19 files changed, 13 insertions(+), 12 deletions(-)
+[START commit][author=Madeline Whitmore][time=1627560487][message=💾️ Saving and Moving Platforms Basic Save Functionality And Started on Moving Platform Area][hash=18e4f184816fa14819135b0823e74efb4dd2e8c4]
+ 33 files changed, 2827 insertions(+), 426 deletions(-)
 
-[START commit][author=Hugoagogo][time=1306313026][message=Fixed menu and how to play guide][hash=f51ddd2e1229ee7e767fe773274b4c1ca094ebe7]
- 2 files changed, 43 insertions(+), 74 deletions(-)
+[START commit][author=Madeline Whitmore][time=1626698793][message=✨️ Implemented New Moving Platforms Into Main Scene][hash=f63541ecf210689acd1308eb28754f0a8cc6175e]
+ 33 files changed, 3498 insertions(+), 498 deletions(-)
 
-[START commit][author=Hugoagogo][time=1306284078][message=Finished of changes to the menu module, there are still some bugs to do with padding and margins][hash=477b6ba3d753fb7c054f857eb2459291c10fe8df]
- 2 files changed, 116 insertions(+), 119 deletions(-)
+[START commit][author=Madeline Whitmore][time=1625646106][message=🎈️ Upgraded how moving platforms are handled using bezier curves][hash=6878d0a12f131b436f22c1172ab7610d2af71ea9]
+ 86 files changed, 16028 insertions(+), 3264 deletions(-)
 
-[START commit][author=Hugoagogo][time=1305867456][message=More work on the menus module, buttons can now be clicked][hash=17bfec250198be10ea050cc7fe0474565487f9b3]
- 1 files changed, 13 insertions(+), 1 deletions(-)
+[START commit][author=krimson2208][time=1625106290][message=Merge branch 'main' into Max's-work][hash=dd5f9633548bdace2b3bf2db0789429c6149dcf0]
+[START commit][author=krimson2208][time=1625019238][message=Update design of main menu][hash=71dcd279e686ef39669f3fec8b989fff9fdf716e]
+ 12 files changed, 406 insertions(+), 2727 deletions(-)
 
-[START commit][author=Hugoagogo][time=1305785137][message=Minor Tweaks to defaults and padding][hash=a7e75e4fac6d82d4be7a9a6cf70250b31939e0a5]
- 1 files changed, 16 insertions(+), 7 deletions(-)
+[START commit][author=Madeline Whitmore][time=1625016421][message=Merge branch 'main' into Mario's-Work][hash=1376dc88dc8e58ac6d716101ec18ac19fdcc94fc]
+[START commit][author=Madeline Whitmore][time=1625016033][message=Minor Changes][hash=219ba16f25e4417cfd5e44a9f6f300bf9f801354]
+ 10 files changed, 381 insertions(+), 381 deletions(-)
 
-[START commit][author=Hugoagogo][time=1305777761][message=Started reworking the menu system][hash=dcb2ccae6cec7ae48b5357d89b8f09f0063faff8]
- 2 files changed, 249 insertions(+), 160 deletions(-)
+[START commit][author=krimson2208][time=1625015908][message=Merge Commit][hash=6e41805751914f12710a86029ebb347dfb0b0156]
+[START commit][author=krimson2208][time=1625015752][message=Update design of main menu][hash=60d019c837fc22a065582ec00f3642fe8e933098]
+[START commit][author=Madeline Whitmore][time=1624963538][message=Made Pause UI More Consistient and Fixed UI Input Issues][hash=ffaf751a3451209308c805a2e4c435ecc5f3da40]
+ 12 files changed, 695 insertions(+), 609 deletions(-)
 
-[START commit][author=Hugoagogo][time=1305679216][message=Finaly got rid of artifacts from between files][hash=c82b37a99adec62c217ca806ffe6dab7e40d63e6]
- 1 files changed, 2 insertions(+), 0 deletions(-)
+[START commit][author=Madeline Whitmore][time=1624962718][message=✨️ Switched to Coroutine Based Pause UI Animation and Removed Lean Tween][hash=c24cc81f5b79804497c1bebe25040c099aa8647d]
+ 429 files changed, 1014 insertions(+), 162499 deletions(-)
 
-[START commit][author=Hugoagogo][time=1305624229][message=Changed sounds for picking up and placing][hash=e592e1c190af44865f12694fc1df9d7ccfcf0706]
- 2 files changed, 0 insertions(+), 0 deletions(-)
+[START commit][author=Madeline Whitmore][time=1624320356][message=Merge remote-tracking branch 'origin/Max's-work'][hash=d515c544e41051b5e138c8aa910bfb4897b82e63]
+[START commit][author=Madeline Whitmore][time=1624313449][message=🧹 Updated Unity Libraries][hash=92beec2f8d3b9ce5783b70c1a2d2ae83ea28258f]
+ 39 files changed, 82 insertions(+), 82 deletions(-)
 
-[START commit][author=Hugoagogo][time=1305200229][message=Added some sound effect, might need to be changed][hash=11a90b43dae052e6c5b17f22e989a3b480e64d38]
- 7 files changed, 42 insertions(+), 0 deletions(-)
+[START commit][author=krimson2208][time=1624313193][message=still working on settings menu][hash=7f7c445d8cf57b7557d172c697cb411a130f96e2]
+ 7 files changed, 132 insertions(+), 85 deletions(-)
 
-[START commit][author=Hugoagogo][time=1305180164][message=Changed resource folder layout][hash=13d537723b41115e0d3c40a0543990d508a00be3]
- 81 files changed, 693 insertions(+), 693 deletions(-)
+[START commit][author=krimson2208][time=1624223129][message=weekly changes][hash=c5ce8cf678ef278ed0463cbce6e0c73ac304cbab]
+ 8 files changed, 898 insertions(+), 121 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302405933][message=Changed highscores.py because it was poorly implimented and used sqlite3][hash=c9e11bcf81fb8cd97f1104e4650cb13de75d2066]
- 1 files changed, 23 insertions(+), 54 deletions(-)
+[START commit][author=Madeline Whitmore][time=1624223126][message=🎉️ Switched Items to an Enumeration][hash=acb85b646bb736493713743e8df9333e60f7fbae]
+ 9 files changed, 19 insertions(+), 13 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302393758][message=Finished scoreboard with dates instead of playernames just in time][hash=c7377fdaf4f5f434ede90553e9ff12f29a14bfb0]
- 1 files changed, 5 insertions(+), 1 deletions(-)
+[START commit][author=Madeline Whitmore][time=1623893325][message=🚀️ Fixed Grappling Hook Visual Very Jankily][hash=93355e5a42550b2f659c266dbec97ca18e3f5149]
+ 11 files changed, 39 insertions(+), 39 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302393125][message=Running out of time added highscores to the end of the game but still no names][hash=cb0fa19c167d6584890cc9bf0980fc5f65663564]
- 2 files changed, 34 insertions(+), 12 deletions(-)
+[START commit][author=Madeline Whitmore][time=1623876824][message=🌊️ Fixed Water Navigation Input Issues][hash=0c0a8ee0d6247bca3a7d52797d7a9b971ce2cb92]
+ 13 files changed, 2005 insertions(+), 2003 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302391868][message=Changed some of the highscore layouts][hash=912e7e70485c5863ffadd486c8c19722b1fdde77]
- 2 files changed, 130 insertions(+), 7 deletions(-)
+[START commit][author=Madeline Whitmore][time=1623228645][message=Merge branch 'main' into Mario's-Work][hash=28c8ca98f8a8f84f5ee97f023fb4168cc4ab894d]
+[START commit][author=Madeline Whitmore][time=1623228617][message=Merging][hash=6f5209328241ce59b71deb2ac52e2ac47f045caf]
+ 21 files changed, 0 insertions(+), 0 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302390471][message=Added a basic highscore system][hash=ae771e5b43504c0c578e8356de158dbaf9ec6ec9]
- 1 files changed, 46 insertions(+), 14 deletions(-)
+[START commit][author=Madeline Whitmore][time=1623228225][message=👨‍💻️Grappling Aiming Overhaul][hash=4f446a2e7e62af4bd81e44a37580fd8e2b2ed3fa]
+ 61 files changed, 491 insertions(+), 462 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302352624][message=More minor tweaks, for version 0.3][hash=9d9517b1dd84f3e9192b81ff8151b6ee3a7dd8c6]
- 3 files changed, 9 insertions(+), 9 deletions(-)
+[START commit][author=krimson2208][time=1622689695][message=made the settings button work][hash=3b9eff98992bac38337c4d9844333c756d2a065d]
+ 16 files changed, 234 insertions(+), 101 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302351547][message=Merged in some changes][hash=787c0a1f3f4f6bfe008ded2fea2419bb7dca1820]
-[START commit][author=Hugoagogo][time=1302351336][message=A few more tweaks ready for release 0.3][hash=55440216c04cd0252e3bf08e3d88b3274d4d4881]
- 1 files changed, 6 insertions(+), 2 deletions(-)
+[START commit][author=krimson2208][time=1622596156][message=baisically finished the main menu][hash=db3b98a109fd065e6ca71f06268b99f3b3caadeb]
+ 13 files changed, 274 insertions(+), 1235 deletions(-)
 
-[START commit][author=Rhys Powell][time=1302351107][message=Improved documentation.][hash=4e7f919a67e189e0ee31c559e5d4ffdfe2d1ca2d]
- 3 files changed, 25 insertions(+), 9 deletions(-)
+[START commit][author=krimson2208][time=1622084244][message=Merge branch 'main' into Max's-work][hash=e83b468b9e299c45fef05d9fbc6f542340b2b83a]
+[START commit][author=krimson2208][time=1622081658][message=ALmost finished main menu][hash=129b50d827c245b411f6c46988bb8e4c90f4e957]
+ 27 files changed, 1262 insertions(+), 111 deletions(-)
 
-[START commit][author=Rhys Powell][time=1302350462][message=Fixed how to play doc opening on OS X][hash=d5575a56730a5e20d139140971bebf13ec010e37]
- 1 files changed, 1 insertions(+), 1 deletions(-)
+[START commit][author=Madeline Whitmore][time=1622022736][message=✨️ Removed References to Old Input System][hash=b7256cbd3e0c832c2f12f480a4e518c7771efe62]
+ 2 files changed, 11 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302349949][message=Updated the how to play][hash=a750f5858324e8f450d8768600ea27d31727f4e7]
- 1 files changed, 2 insertions(+), 2 deletions(-)
+[START commit][author=Madeline Whitmore][time=1622018881][message=🚀️ Completed Switch to Player Input Based Input][hash=39b69fa3f3ffd8b24747e864ab72b63da46a3473]
+ 21 files changed, 680 insertions(+), 1138 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302349318][message=Merge branch 'master' of https://github.com/FrogBot/citySquare into FrogBot-master][hash=8fd4d3017ec157bba0c2e0dd26c5d0ccae8faf4a]
-[START commit][author=Hugoagogo][time=1302348989][message=Fixed up a bug with cities with an invalid tile on the left hand side, added some new tiles][hash=8ca9269ddb0c87dd2466472670b384ccbc41f9bf]
- 4 files changed, 1 insertions(+), 1 deletions(-)
+[START commit][author=Madeline Whitmore][time=1621810797][message=Repaired jump mechanic, switched to better input handling][hash=ef694f87b6b71259f5cf26551936e73dbaea5928]
+ 102 files changed, 793 insertions(+), 622 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302346223][message=Added an untimed ZenMode][hash=f84aa64db4d05929d64e3b10c5df02a0c0916df1]
- 1 files changed, 73 insertions(+), 12 deletions(-)
+[START commit][author=krimson2208][time=1621480265][message=Start button finalised][hash=6d5f78b0dcc3ffdc91b9ce20880418a3556bad37]
+ 20 files changed, 791 insertions(+), 478 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302342452][message=Changed some of the menu structure and added a pause menu][hash=0b6d437bc1d1a328ba7930760419c35009364c77]
- 1 files changed, 40 insertions(+), 12 deletions(-)
+[START commit][author=Madeline Whitmore][time=1621390682][message=Fixed VS Code Errors On Linux][hash=95efac36878983a7001d572901ed3fb3d693fbee]
+ 56 files changed, 360 insertions(+), 327 deletions(-)
 
-[START commit][author=Rhys Powell][time=1302341432][message=Nicer 'how to play' document][hash=97fee68ff58b21558ff1c1f4d2545c3748ea3f94]
- 1 files changed, 43 insertions(+), 12 deletions(-)
+[START commit][author=krimson2208][time=1621388100][message=started main menu][hash=b7a1830176bbcad071130c03dd61955330abaf51]
+ 106 files changed, 1002 insertions(+), 2044 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302335611][message=How to play should now open on mac/linux][hash=3a5bd22be5777875608cf92989b254df7236cc9b]
- 1 files changed, 5 insertions(+), 1 deletions(-)
+[START commit][author=mariowhitmore][time=1621294011][message=✨️Simplified README.md][hash=860def868ee7adecf874f888d7a34607c590889a]
+ 1 file changed, 1 insertion(+), 8 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302334508][message=Game will now end if you do better than the computers score][hash=b2d6ce785ed9db9fa5c66bb6e9a00001e91e73ea]
- 1 files changed, 1 insertions(+), 1 deletions(-)
+[START commit][author=Madeline Whitmore][time=1621293743][message=Upgraded to Unity 2021.3.8f1 and added Git-LFS][hash=7d38d8beaa1e7d8c26be1746770b980793c251a9]
+ 104 files changed, 425 insertions(+), 463 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302330627][message=Added a how to play guide and updated the README ready for release 0.2][hash=238704b428a82b5b44351e1c83c6a5602c2d7a5c]
- 3 files changed, 17 insertions(+), 11 deletions(-)
+[START commit][author=Mario Whitmore][time=1612254687][message=✨ Variety of changes Reverted to Unity 2020.2.2f1 Revised Fire Shader that is cool][hash=1b40007f024cb08358fc19c18429f8e0e2cd985c]
+ 147 files changed, 13006 insertions(+), 11971 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302329276][message=Have forgotten to commit in a while lots of changes to lots of things, particularily menus and a breakup of your score at the end of the game][hash=b813386eb53eeb8c2a043c9b5942cbaf25d6c9ac]
- 20 files changed, 575 insertions(+), 69 deletions(-)
+[START commit][author=Mario Whitmore][time=1611819912][message=🚀 Fixed Rendering][hash=653e8cd569a4becbbb46b538a98e477848dd4e0b]
+ 70 files changed, 5295 insertions(+), 6633 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302241202][message=Polished off some bugs and drawbacks after getting some people to play the game such as right-clicking to rotate as well as updateing after clicking.][hash=f0fa2b166f26cd1ff31b29f77340b85595bb69d5]
- 1 files changed, 81 insertions(+), 23 deletions(-)
+[START commit][author=Mario Whitmore][time=1611306925][message=🔥 Fixed Error That Prevented Creation of New Shaders][hash=7c9962eea031565f62bc09fcdd2f36cb1c1697c9]
+ 31 files changed, 3157 insertions(+), 375 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302232417][message=Did more work on the scoring bar and added a time bar nothing happens when you loose though][hash=3c7126dda7163d65c9f4a210646f82721b245df7]
- 1 files changed, 100 insertions(+), 20 deletions(-)
+[START commit][author=Mario Whitmore][time=1611216023][message=✨ Start of New Rebind System][hash=27e97ba09499bf8e776fec9f362d7d7a43a6452e]
+ 28 files changed, 408 insertions(+), 928 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302181299][message=Grid can now be moved and sized independantly of the window ready to add a score bar and a time bar][hash=520353dd511f7c3aad15538c153c046bf84ae372]
- 1 files changed, 32 insertions(+), 18 deletions(-)
+[START commit][author=Mario Whitmore][time=1610956248][message=🧹Removed Broken Rebinding System][hash=90d7888f684353c6826ff61781fbf32db01f0500]
+ 111 files changed, 12898 insertions(+), 9473 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302178886][message=Improved folowing links more and polished of some more of the scoring system][hash=da37c951d54089344ff2b26f270b9d9fa687042e]
- 1 files changed, 40 insertions(+), 35 deletions(-)
+[START commit][author=Mario Whitmore][time=1610947204][message=Update to Unity 2021.1.0b2][hash=d26f8907ed7751d948f9ed40fa0796aaddefc54a]
+ 309 files changed, 2157 insertions(+), 23789 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302169447][message=Got a few more bugs squashed and a the basis of a scoring system up and running][hash=391d47e4969536e4e65bd318c9e4cbb7b2cda8e5]
- 1 files changed, 62 insertions(+), 8 deletions(-)
+[START commit][author=Mario Whitmore][time=1602531513][message=Incomplete Exam Commit For Exam][hash=2b7a4abe66fd301f16a5f6d7399631b4a2706f93]
+ 32 files changed, 1949 insertions(+), 2069 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302156132][message=Works fully now :)][hash=5f7cd5197a20cbf4e02b08568fb11689736de0a4]
- 1 files changed, 6 insertions(+), 6 deletions(-)
+[START commit][author=Mario Whitmore][time=1601528683][message=🎮 Installed and retrofitted the rebinding UI to use TextMeshPro for better text quality and changed the UI so it remains consistent with the rest of the game's UI][hash=1916acdb6931126d470cf9adb8c03ff6de541fa2]
+ 1380 files changed, 2482 insertions(+), 141580 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302156101][message=works.... mostly, still][hash=7b5522d71459c5648cfc127669ebce2b9f1de91a]
- 1 files changed, 51 insertions(+), 45 deletions(-)
+[START commit][author=Mario Whitmore][time=1601030125][message=🌱 Added Cheats, Easter Eggs, Fonts and Code for Unlocking Tools][hash=10dda235d15766d502e1253b8a05642c12b0e03f]
+ 92 files changed, 9958 insertions(+), 655 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302142885][message=Trying to write the algoritm for groups but its not really working, about to start again][hash=39ae209fef54f67227cf493ceb90a2aad7533abe]
- 1 files changed, 54 insertions(+), 5 deletions(-)
+[START commit][author=Mario Whitmore][time=1600648910][message=Merge branch 'master' of https://github.com/Selwyn-College/as91893-and-91897-Mario into master][hash=73ad2b7799bb3f00ff83523a98b12e1599e88896]
+[START commit][author=Mario Whitmore][time=1600559076][message=🦞 Various Additions Added Colour Blind Filters Added Bubble Particles Slightly Expanded Level Design][hash=e69d49fbf10d25d14ce81fe488fc0a11b68d007c]
+ 416 files changed, 6122 insertions(+), 135823 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302091126][message=Updated readme, also tiles are now switched when clicked on][hash=acaab51ce5486f17fa6ca959276aead3ffebfaad]
- 2 files changed, 18 insertions(+), 7 deletions(-)
+[START commit][author=Mario Whitmore][time=1600325812][message=♿ Various Improvements Expanded Level Design Added Tools for Testing For Colour Blindness][hash=a08b941ffce9a7fe8715e003bf2fb872a43d8c66]
+ 46 files changed, 7699 insertions(+), 699 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302085038][message=Corrected typo causing crash][hash=09f7f6f977873e72d169c0fe3dbbde333e8b04b0]
- 1 files changed, 1 insertions(+), 1 deletions(-)
+[START commit][author=mariowhitmore][time=1600246847][message=🧹 Fixed Formatting Error In The README][hash=9d8b2773ec30a54e6e15b701c0e28832036f3983]
+ 1 file changed, 1 insertion(+)
 
-[START commit][author=Hugoagogo][time=1302077102][message=Added some comments and a readme, ready for release 0.1][hash=dcb8612846f59d4223b005262ce4166c24d77093]
- 2 files changed, 29 insertions(+), 11 deletions(-)
+[START commit][author=Mario Whitmore][time=1600246589][message=⭐ Cleaned up the README and added quote from reviewer][hash=6df78a3b6f08f5751cace16e92d39f26d7e08b99]
+ 1 file changed, 2 insertions(+), 1 deletion(-)
 
-[START commit][author=Hugoagogo][time=1302055807][message=Rixed a bunch of stuff now works with any size grid as well as not being drawn slightly off.][hash=86d43ef63642bcb0473c9f6d48effa811c287f20]
- 1 files changed, 41 insertions(+), 26 deletions(-)
+[START commit][author=Mario Whitmore][time=1600246415][message=👍 Finished falling level segment][hash=5bc9d155d01af7b16a93e80991396d218a4c978f]
+ 60 files changed, 614 insertions(+), 498 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302007935][message=Dragging dropping and rotating has now been implimented][hash=59251792419485a3d15400ba1b9096ac2a000b52]
- 1 files changed, 45 insertions(+), 1 deletions(-)
+[START commit][author=Mario Whitmore][time=1600163428][message=Merge branch 'master' of https://github.com/Selwyn-College/as91893-and-91897-Mario into master][hash=14a2bb8a74c093e0a1c3be54703a7e15964e1a96]
+[START commit][author=Mario Whitmore][time=1600163241][message=Organised layout in editor and added start of falling level segment][hash=77fecbeae8a1e627f91a83d630a112880457441c]
+ 88 files changed, 1253 insertions(+), 2447 deletions(-)
 
-[START commit][author=Hugoagogo][time=1302005661][message=Tiles are now weighted, can sit in the tray and can be clicked][hash=3fab4572e10255312388f68a40e2470640484751]
- 35 files changed, 58 insertions(+), 109 deletions(-)
+[START commit][author=mariowhitmore][time=1600067324][message=Update README.md][hash=f85aa03db8d35ff245d7bdab66a965073edef98a]
+ 1 file changed, 6 insertions(+), 3 deletions(-)
 
-[START commit][author=Hugoagogo][time=1301996914][message=Solved it at last it now generates a full grid it was all due to the cycle function not working backwards][hash=169a2a788d6f57f6af0fcddf65b7b6556154978f]
- 1 files changed, 199 insertions(+), 120 deletions(-)
+[START commit][author=Mario Whitmore][time=1600066578][message=🌱  Glow Weed Spriteshapes and Lighting to Match][hash=3cd92cdf50e8d0337cbe2ef9aee0c77d3b9f79e3]
+ 98 files changed, 4015 insertions(+), 2076 deletions(-)
 
-[START commit][author=Hugoagogo][time=1301974356][message=Stuck, top 2 and right 2 rows dont calculate correctly as well as only one instance of each tile][hash=7cad4d6af439e34100f62c021e7bee227f8337f8]
- 1 files changed, 49 insertions(+), 41 deletions(-)
+[START commit][author=Mario Whitmore][time=1599951586][message=🌲 Extended the current level design][hash=a7e437c4e305650fcc604e2653f564677a6a69f5]
+ 78 files changed, 5956 insertions(+), 6635 deletions(-)
 
-[START commit][author=Hugoagogo][time=1301921312][message=Got it working but the grid isnt being displayed right][hash=fc7c733ee90cd9dd48e7d085c4e8e7fad4d19274]
- 1 files changed, 19 insertions(+), 15 deletions(-)
+[START commit][author=Mario Whitmore][time=1599818564][message=⭐ Added Spikes, DeathCall Function and Bubble Emitter][hash=efbb6f25e77bd94ef18d2586c4bfe069a8ccbbe7]
+ 36 files changed, 2486 insertions(+), 1476 deletions(-)
 
-[START commit][author=Hugoagogo][time=1301919383][message=Lots more progress but kind of stuck on generating a perfect city, i think the problem lies within the edges at function][hash=d22e6cef4a43f870ec7a5b04f9b6732e1c25acda]
- 1 files changed, 100 insertions(+), 13 deletions(-)
+[START commit][author=Mario Whitmore][time=1599614958][message=✨ Improvements To Bubble Script, New Water Shaders and Tileset][hash=2510d6391fb21a47af9a6f7ade0ee9a2a9cc7eae]
+ 90 files changed, 4592 insertions(+), 3188 deletions(-)
 
-[START commit][author=Hugoagogo][time=1301907507][message=Added much more functionality now squares can be dropped, if they are over the grid they will align themselves with it ect][hash=761adcc7564064ddded884209e4e49d96887865d]
- 1 files changed, 78 insertions(+), 9 deletions(-)
+[START commit][author=Mario Whitmore][time=1599373796][message=🚀 Added Moving Platforms and starting bubble functionality][hash=faf4cab64536fae2da8bf28520dd6bda13fc1909]
+ 107 files changed, 6720 insertions(+), 2023 deletions(-)
 
-[START commit][author=Hugoagogo][time=1301901113][message=Added a grid class to manage where tiles are placed as well as making Tile a subclass of pygame.sprite.Sprite][hash=c335e7d7c95529b77001378fa3403d1274d52d8f]
- 1 files changed, 53 insertions(+), 7 deletions(-)
+[START commit][author=Mario Whitmore][time=1599008978][message=Hook transform syncing][hash=f0c7b748ba94ee18915e9b66062aa21b0a8d8582]
+ 10 files changed, 22 insertions(+), 1 deletion(-)
 
-[START commit][author=Hugoagogo][time=1301895846][message=Crushed some bugs, changed to the carcassone images from YORK][hash=84a37a938929b6298ef44ba0f9766a32db8abc8f]
- 20 files changed, 360 insertions(+), 7 deletions(-)
+[START commit][author=Mario Whitmore][time=1599007638][message=Downgraded to LTS version of unity because of suboptimal performance on linux. Downgraded packages to versions associated with the new unity version][hash=b9c5f8add3f6f24657429c2239cfe5f1df60acd8]
+ 751 files changed, 887 insertions(+), 21745 deletions(-)
 
-[START commit][author=Hugoagogo][time=1301892997][message=A basic framework for tiles and some functions to load them][hash=36b313ac9ea19c092e22a419ab4ad8302ae5c3ce]
- 1 files changed, 38 insertions(+), 0 deletions(-)
+[START commit][author=Mario Whitmore][time=1598915233][message=Downgraded to Unity 2019.4.9f1 LTS][hash=c7db6dc0e9b656c5d8a7c42ecc7b789bf6db62bf]
+ 87 files changed, 97 insertions(+), 3962 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1595404638][message=Downgraded to a more stable version of the Universal Render Pipeline][hash=3985b57fa168c4c93dd6fd6cea222fc47c4c98d5]
+ 108 files changed, 882 insertions(+), 417 deletions(-)
+
+[START commit][author=mariowhitmore][time=1595395167][message=Yet another fix to the UI][hash=ac52644d1c0752739d17e79ee126b08022f8bd17]
+ 19 files changed, 966 insertions(+), 918 deletions(-)
+
+[START commit][author=mariowhitmore][time=1595393530][message=Pause Screen Blurring Complete (Very Sexy)][hash=040d6a4e7a4481f0445837fea283733548c0d6b4]
+ 347 files changed, 60063 insertions(+), 1393 deletions(-)
+
+[START commit][author=mariowhitmore][time=1595319316][message=Pause Menu Now Properly Implemented][hash=c5ff6f4b37549e06c939b2e2e75d4d9703695adb]
+ 128 files changed, 1253 insertions(+), 2414 deletions(-)
+
+[START commit][author=mariowhitmore][time=1595191238][message=Merge branch 'master' of https://github.com/Selwyn-College/as91893-and-91897-Mario][hash=b150c4258fa572a87bd6d3fe07eedb07d3a4dc43]
+[START commit][author=mariowhitmore][time=1595190520][message=Merge][hash=d37f52b8c05b76245627cf42ba33bfff5c9bc126]
+ 115 files changed, 1011 insertions(+), 908 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1595187743][message=Optimised hook collider][hash=0997ee011f1b9758c2f1aad4cff940d4893bcd4e]
+ 13 files changed, 62 insertions(+), 77 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1595129889][message=UI Tweening Complete][hash=f98daf84d69eef884aa7e723710dcdfd8d49bc83]
+ 19 files changed, 771 insertions(+), 1075 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1595060322][message=Starting on UI Tweening][hash=ba9f46b5ac9c2c3e52cabb22c303a5cbd4e9b9ec]
+ 21 files changed, 721 insertions(+), 679 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1594959878][message=Updated Unity to 2020.2.0a18 Updated Universal RP to 9.0.0-preview.35 Updated Cinemachine to 2.6.0][hash=3b226b5f307edb1738ea510ff21d38e33b61d870]
+ 4989 files changed, 680 insertions(+), 410039 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1594350967][message=ACES colour grading blur and lighting fix][hash=e205ea18956e8522287be29566a6930650d6c906]
+ 334 files changed, 147880 insertions(+), 657 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1594024996][message=Pausing script introduced][hash=d07517aa407f85b8d61f8f5e95eed05d61e10715]
+ 110 files changed, 11944 insertions(+), 558 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1593754045][message=merge][hash=ba6804c7054eef7b4dc8c9af97e32fa151096e80]
+ 13 files changed, 3335 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1593685211][message=Volumetic Bokeh Based Blur][hash=211c8ecf4c31f870deca9f74370f64b160978fcf]
+ 166 files changed, 4273 insertions(+), 1178 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1593670920][message=Merge branch 'master' of https://github.com/Selwyn-College/as91893-and-91897-Mario][hash=7668a1378292647b2dd2c9bc9c94e5ecfa42ddaf]
+[START commit][author=Mario Whitmore][time=1593670877][message=add blank texture for shading][hash=9541308544e408f338dc4014133b01f6688b8b3c]
+ 2 files changed, 120 insertions(+)
+
+[START commit][author=mariowhitmore][time=1593659321][message=Update to sky texture][hash=966817859176149f2e7680822868bde34abc45f8]
+ 17 files changed, 499 insertions(+), 556 deletions(-)
+
+[START commit][author=mariowhitmore][time=1593640511][message=Bunch of irrelevant DLLs and logs][hash=96c442ec5859b2a6fa47fe81b20f4bcc2c3aa664]
+ 105 files changed, 513 insertions(+), 394 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1593590574][message=Rendering Overhaul WIP][hash=2faf5bca6c634f35e440f655d8c404c0b614e677]
+ 113 files changed, 1610 insertions(+), 1207 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1593587211][message=Merge branch 'master' of https://github.com/Selwyn-College/as91893-and-91897-Mario][hash=b0a32f36c9d580ab72935fadb1c5a06856b5d395]
+[START commit][author=Mario Whitmore][time=1593586751][message=merge][hash=ac36e862d06a936739555ccfdcd206780d63d61e]
+ 9 files changed, 63 insertions(+), 193 deletions(-)
+
+[START commit][author=mariowhitmore][time=1593586464][message=Start of Sky Texture][hash=1cf99409ec2af85daeed3c856cda3840a6df3084]
+ 108 files changed, 517 insertions(+), 427 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1593423282][message=Make Glow Weed Illuminate When the Player Comes Close][hash=f11f4b624cab73e1a36b9be68b6ac18f4b742e46]
+ 31 files changed, 1256 insertions(+), 415 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1593321641][message=Failed attempt at fixing a bug where a flame would only appear for a frame before dissappearing when underwater][hash=c937c6154903b1fa3b1f72999e2b9c62932041e3]
+ 19 files changed, 540 insertions(+), 1194 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1593311360][message=Tweaked flag shader to use Lit 2D Shader Tweaked Crystal Interior Shader to look better][hash=d1e2eb8e327e9ebf6f1ee79c546f142e8c717629]
+ 23 files changed, 1259 insertions(+), 511 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1593255275][message=Continued work on underwater lighting - Glow Weed Sprite, Emissions and Shader Added Cloth Model, texture, physics and object][hash=c74a28c7ad78e5de244b88f3b92cfd39256e8ae3]
+ 45 files changed, 2449 insertions(+), 820 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1593129536][message=Completed vertical water movement untill further notice][hash=ce996621d99268b1d3d0b2cc7ea51476dc4dfc10]
+ 12 files changed, 261 insertions(+), 233 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1593079159][message=Preperations for swimming upwards and jumping out of the surface of the water][hash=4e5cecf581718a6fd588502139d5c08ec6b81dd3]
+ 11 files changed, 45 insertions(+), 46 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1593061453][message=Water Detection Using Raycasts][hash=701b9dd2350d61d0037218d3d6643b2d427d1781]
+ 13 files changed, 617 insertions(+), 5084 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1592979628][message=Dropped use of unity's animation system in favor of a custom C# based implementation for darkening the light when the player enters the water Switched from local to world space for portable torch particles for more realistic acting smoke][hash=7827f7ad76814c48cac830ed51ff7766a69be657]
+ 112 files changed, 5291 insertions(+), 1243 deletions(-)
+
+[START commit][author=mariowhitmore][time=1592963993][message=Implemented player shadows][hash=8fb8df7312628b1319469da03e7267dab68ebe25]
+ 12 files changed, 485 insertions(+), 83 deletions(-)
+
+[START commit][author=mariowhitmore][time=1592962614][message=Removal of Debuging code & started work on under water point lights][hash=35254764244b61e95a3687012ff62ab6ef2837db]
+ 23 files changed, 1172 insertions(+), 5599 deletions(-)
+
+[START commit][author=mariowhitmore][time=1592959729][message=Merge branch 'master' of https://github.com/Selwyn-College/as91893-and-91897-Mario][hash=35847290720e4aaa3314788b294b5220d2968ad4]
+[START commit][author=mariowhitmore][time=1592959552][message=A Bunch of irrelevant DLLs and Logs][hash=13259e14458c5db1cb604d769ba84f7360e52588]
+ 607 files changed, 489 insertions(+), 437 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1592901763][message=Merge branch 'master' of https://github.com/Selwyn-College/as91893-and-91897-Mario][hash=249e771cc4f8bace1ec113b77539958d3f77cc58]
+[START commit][author=Mario Whitmore][time=1592901634][message=Added Animation that darkens global light when the player enters the water][hash=08290fe623afe335bd2f133cb2dd2a9657c60c88]
+ 116 files changed, 5458 insertions(+), 199 deletions(-)
+
+[START commit][author=mariowhitmore][time=1592773164][message=Merge branch 'master' of https://github.com/Selwyn-College/as91893-and-91897-Mario][hash=2f1a6d382f350df61a42528ac53e78ffcf52328d]
+[START commit][author=mariowhitmore][time=1592772289][message=Artifact Merge][hash=9fa040a83605ba84cf4876caf171b12371599736]
+ 5 files changed, 32 insertions(+), 32 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1592645721][message=Better Implementation of fire Torch now detects when it collides with water Made Pixels per unit consistient across sprite shapes][hash=aca93dbaa4ffe80da83cb726852b40e682bce584]
+ 27 files changed, 229 insertions(+),
