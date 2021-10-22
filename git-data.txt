@@ -1,3 +1,15 @@
+[START commit][author=Madeline Whitmore][time=1634889075][message=🔧️Fixed UI Naming and Made Saveslots Sort By Date][hash=4a8a260b183eec7782e941d8369e20f5812dcc86]
+ 2 files changed, 12 insertions(+), 8 deletions(-)
+
+[START commit][author=Madeline Whitmore][time=1634762118][message=🔧️ Menu Rendering Fixed][hash=861ab3d01dd1337bd6c528272dcbf8f01918c1cb]
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+[START commit][author=Madeline Whitmore][time=1634721522][message=🔧️ Fixed Saveslot Loading and Saveslot Menu][hash=3b2d79d22bfb0fbff8d68a8ed6220a8acad4d6d1]
+ 2 files changed, 6 insertions(+), 6 deletions(-)
+
+[START commit][author=Madeline Whitmore][time=1634714858][message=✨️ Fixed Various UI Issues][hash=3bee4c06d3ee892feda189caf628da7729e9513b]
+ 2 files changed, 33 insertions(+), 32 deletions(-)
+
 [START commit][author=Madeline Whitmore][time=1631064261][message=Drop files from .gitignore][hash=043dd1b84c2c998b2eddc0514129b7ee7de3bb11]
  6206 files changed, 6672 deletions(-)
 
@@ -311,4 +323,135 @@
  5 files changed, 32 insertions(+), 32 deletions(-)
 
 [START commit][author=Mario Whitmore][time=1592645721][message=Better Implementation of fire Torch now detects when it collides with water Made Pixels per unit consistient across sprite shapes][hash=aca93dbaa4ffe80da83cb726852b40e682bce584]
- 27 files changed, 229 insertions(+),
+ 27 files changed, 229 insertions(+), 9111 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1592633280][message=Upgraded to Unity 2020.2.1a15 added dirt texture added rock texture added center sriteshape texture added closed grass spriteshape added torch extinguishing on contact with water started work on light simming when the player enters the water][hash=a6a8db20bb0625723244ae43e8f69fded48c8d48]
+ 9066 files changed, 9954 insertions(+), 478378 deletions(-)
+
+[START commit][author=mariowhitmore][time=1592368264][message=Merge branch 'master' of https://github.com/Selwyn-College/as91893-and-91897-Mario][hash=80849c8c05792bfea6e9df4dbc8b595b983cf750]
+[START commit][author=mariowhitmore][time=1592368246][message=Transfer to desktop][hash=b419ee313b288f93527cf885c4461a4e2ffef9e2]
+ 108 files changed, 731 insertions(+), 828 deletions(-)
+
+[START commit][author=mariowhitmore][time=1592350000][message=Update README.md][hash=16853f508178ea1464dd8dd5368c528322ccb9d1]
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+[START commit][author=mariowhitmore][time=1592348242][message=Merge branch 'master' of https://github.com/Selwyn-College/as91893-and-91897-Mario][hash=5cba901b9212aac87b12d3b73f7d87d7bbf43560]
+[START commit][author=mariowhitmore][time=1592348149][message=Merging files desktop into laptop][hash=bbcc7070e33d2961febc7a99b24f42e4ace5f94c]
+ 45 files changed, 176 insertions(+), 2011 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1592294721][message=Introduced bubble textures to shaders and started work on underwater particles][hash=b3234cf2f7777c07e3d58d22f9f6cbba0afdc8c4]
+ 148 files changed, 13908 insertions(+), 1586 deletions(-)
+
+[START commit][author=mariowhitmore][time=1592291588][message=Readded Bubble Sprites][hash=e0a32111e9e40e6335264e1d6e590a911d1cbc88]
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+[START commit][author=mariowhitmore][time=1592291479][message=Removed sprites temporarily][hash=9a5a176b1b5434fc48138e3baee4e1a4d78f3353]
+ 6 files changed, 360 deletions(-)
+
+[START commit][author=mariowhitmore][time=1592283463][message=Continued Progress on Water shader][hash=1a7f47d35aea1555dbbed88d67b3cf110f7da6b0]
+ 119 files changed, 1631 insertions(+), 598 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1592209812][message=Continued Progress on Water shader][hash=10a182f708dccada2b2c830bec0f5095a2ec13c5]
+ 19 files changed, 676 insertions(+), 459 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1592204242][message=Continued Progress on Water shader][hash=55ac1929fa487bc02fcd303db1dc6dc4a707b437]
+ 108 files changed, 748 insertions(+), 6922 deletions(-)
+
+[START commit][author=mariowhitmore][time=1592179758][message=Update README.md][hash=a629f55189809903ba6d1ccf59bd10631678fb47]
+ 1 file changed, 3 insertions(+)
+
+[START commit][author=mariowhitmore][time=1592195464][message=working on shaders][hash=6d39792b9282d35edc3e69ccc139d69475857f14]
+ 196 files changed, 1388 insertions(+), 581 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1592131256][message=start of water shader][hash=b9724c198e4f61f22dea664afa64feff360d31d1]
+ 4556 files changed, 8020 insertions(+), 359 deletions(-)
+
+[START commit][author=mariowhitmore][time=1591943854][message=Update .gitignore][hash=8c4bfa8593824f870a496845113fe426299cc8d3]
+ 1 file changed, 2 deletions(-)
+
+[START commit][author=mariowhitmore][time=1591943639][message=Update .gitignore][hash=e0003292d6da7aa523c30c1158408581e9ae51e3]
+ 1 file changed, 2 insertions(+)
+
+[START commit][author=Mario Whitmore][time=1591950102][message=Completed Jumping (Still a bit buggy but it works)][hash=90e0ae01e8e304167ef99065d89816f56584f838]
+ 27 files changed, 1022 insertions(+), 171 deletions(-)
+
+[START commit][author=mariowhitmore][time=1591941379][message=Tweaked Layout][hash=67a8dbe8bfc981541cdb5e9ca7fccc9be739e655]
+ 757 files changed, 105 insertions(+), 1640 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1591941545][message=Tweaked Camera][hash=5504ad5589f9c64a7dcb9b08fcd68b0dbbb408ef]
+ 145 files changed, 337 insertions(+), 759 deletions(-)
+
+[START commit][author=mariowhitmore][time=1591931104][message=Adjusted many file sizes and fixed the crystal interior shader][hash=d48672f5e663ffe082c1b407004e9060f6c27fe7]
+ 174 files changed, 2390 insertions(+), 450 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1591868194][message=Enabled HDR and Fixed Bloom switched back to gamma color space][hash=9f103665aa097296e3e2597f82ea7bfc200126f0]
+ 10143 files changed, 297743 insertions(+), 451 deletions(-)
+
+[START commit][author=mariowhitmore][time=1591852273][message=Upgrade to unity 2020 and fixed absence of input actions file][hash=cf1d620d865a82a624d193b5df7242c2d8d473eb]
+ 9603 files changed, 2176 insertions(+), 289694 deletions(-)
+
+[START commit][author=mariowhitmore][time=1591649843][message=Update README.md][hash=fb71526b8cbad7fbfc2e3aa31e2f49fcb1e64104]
+ 1 file changed, 3 insertions(+)
+
+[START commit][author=mariowhitmore][time=1591611225][message=Update README.md][hash=1e9a088e1ce4a2be0243df023ba1b3bfd2c20e97]
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+[START commit][author=Mario Whitmore][time=1591609363][message=converted to unix line endings, should be converted to dos line endings on download to a windows computer][hash=1d09078b26970ba44903d7999a0e12d8d3d6d9c9]
+ 546 files changed, 546 insertions(+), 546 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1591608827][message=downgrade to unity 2019][hash=2d7c029a7a73dda4a148ffbfbb3e1929ad276d47]
+ 16994 files changed, 1204598 insertions(+), 577 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1591439673][message=made it easier to manage repo][hash=89cc720e785b4f9e7d62940e7541be2ba5fd05a8]
+ 2 files changed, 5 insertions(+)
+
+[START commit][author=Mario Whitmore][time=1591439435][message=update to Unity 2020.2.0a13 removal of github plugin for unity updated packages][hash=c7c1beb3fcdf8d4154561919e9ab02836f3d7143]
+ 98 files changed, 523 insertions(+), 8649 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1591171480][message=properly scaled Crystal starts of a shader that will be used for items inside of crystals][hash=5fc6afabe9d4125e5ee853f3bf9cde0dba5cb58b]
+ 23 files changed, 475 insertions(+), 1 deletion(-)
+
+[START commit][author=Mario Whitmore][time=1590974940][message=Various shit becase git is a fuck][hash=a329573b5416b4e03635474160add72b6dffb3b6]
+ 19 files changed, 855 insertions(+), 336 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1590795451][message=WIP Vortex particles][hash=b605ffccbd5bad4f6afde9169e6ca02360eef396]
+ 3 files changed, 4812 insertions(+), 56 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1590747661][message=cleanup][hash=2af41b3c10704ce5ac17cecc27af730ca58249de]
+ 1 file changed, 1 insertion(+), 130 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1590747525][message=Merge branch 'master' of https://github.com/Selwyn-College/as91893-and-91897-Mario][hash=6b2bb1dd25b06fedf98eb769cd722d62edd814d3]
+[START commit][author=Mario Whitmore][time=1590747381][message=crystal destruction particles complete removed test rigidbody removed several test messages][hash=47d94c22c870316a7d4a5deae4be98d6762b8bb1]
+ 3 files changed, 13 insertions(+), 11 deletions(-)
+
+[START commit][author=mariowhitmore][time=1590699571][message=Update README.md][hash=c03d2ac5e8571a9ad761db1b6fe16e2870eb2976]
+ 1 file changed, 12 insertions(+), 4 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1590661821][message=Crystal emissions, particles, particle emissions, idle animations and particles functional Destroying animation and particles are WIP][hash=fbf998ff9be1b81bad5dd8a133f5837d7096dc67]
+ 38 files changed, 11544 insertions(+), 163 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1590642679][message=Crystal Animations][hash=c10f23261d0d5a7725ce7c77588831e340435563]
+ 4 files changed, 457 insertions(+)
+
+[START commit][author=Mario Whitmore][time=1590642557][message=Merge branch 'master' of https://github.com/Selwyn-College/as91893-and-91897-Mario][hash=b23609bb364af2a69e7749a3e193688290295b51]
+[START commit][author=Mario Whitmore][time=1590642402][message=added crystal animations][hash=5950cd12578ef5035feb81e20323df7f725c8b9d]
+ 1 file changed, 113 insertions(+), 89 deletions(-)
+
+[START commit][author=mariowhitmore][time=1590629481][message=Update README.md][hash=edc2b2cd3da2409a9214bdc16333841229e4f487]
+ 1 file changed, 3 insertions(+), 5 deletions(-)
+
+[START commit][author=Mario Whitmore][time=1590490368][message=Should Have Gone Through Already][hash=9619099eecc8299e2d0963da5fb99e80f185adbf]
+ 59 files changed, 2144 insertions(+)
+
+[START commit][author=Mario Whitmore][time=1590490102][message= - Resized Crystal Model  - Implemented Crystal Alpha Value  - Updated Numerous Plugins  - Crystal Lighting Done][hash=65e9856ac55468a3add7bed4290f38ff28d61079]
+ 10 files changed, 141 insertions(+), 181 deletions(-)
+
+[START commit][author=mariowhitmore][time=1590452158][message=Update README.md][hash=6557add79581bd22d4862b4befbc05046b798dcf]
+ 1 file changed, 2 insertions(+)
+
+[START commit][author=mariowhitmore][time=1590445516][message=Transfer From DTG-2020][hash=1e8222c87fa652a448e6706119653d47254f53b6]
+ 170 files changed, 31151 insertions(+)
+
+[START commit][author=backhouse-smithe][time=1590354494][message=Setting up GitHub Classroom Feedback][hash=a592d87db8ffdaada6d711f028d2f530559d0cea]
+[START commit][author=backhouse-smithe][time=1590354494][message=Setting up GitHub Classroom Feedback][hash=363cf0f45ab5d7a61ef9c95f9db117953499681a]
+ 1 file changed, 0 insertions(+), 0 deletions(-)
